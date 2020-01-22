@@ -250,6 +250,9 @@
 	    position: relative;
 	    background-color: #fff;
 	}
+    .dark-version .card-inner-box  .card-item {
+        background-color: #121a31;
+    }
 
 	.header {
 		display: none;
