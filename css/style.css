@@ -194,8 +194,8 @@ ul,li{
 
 .btn-style-two:hover{
 	color: #ffffff;
-	background: #ff4d8e;
-	border-color: #ff4d8e;
+	background: #3cb5b5;
+	border-color: #3cb5b5;
 }
 
 
@@ -824,7 +824,11 @@ img{
 	font-weight: 600;
 }
 
-/* Testimonials*/
+.dark-version .progress-levels .progress-box .percent {
+    color: #ddd;
+}
+
+    /* Testimonials*/
 
 .card-about .testimonials {
 	margin-bottom: 30px;
@@ -1023,7 +1027,7 @@ img{
 .card-resume .timeline-column .timeline-block h5{
 	position: relative;
 	font-size: 15px;
-	color: #ff4d8e;
+	color: #3cb5b5;
 	font-weight: 500;
 }
 
@@ -1248,7 +1252,7 @@ img{
 }
 
 .projects-block .caption-title span {
-    color: #ff4d8e;
+    color: #3cb5b5;
     display: inline-block;
     font-size: 15px;
     font-weight: 600;
@@ -1331,7 +1335,7 @@ img{
 .news-block .overlay a {
     background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
     border-radius: 50%;
-    color: #ff4d8e;
+    color: #3cb5b5;
     font-size: 26px;
     height: 60px;
     line-height: 60px;
@@ -1375,7 +1379,7 @@ img{
 	padding: 9px 0;
 	border-radius: 5px;
 	font-size: 13px;
-	color: #ff4d8e;
+	color: #3cb5b5;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
 }
@@ -1754,7 +1758,7 @@ img{
 .contact-form .form-group input[type="email"]:focus,
 .contact-form .form-group select:focus,
 .contact-form .form-group textarea:focus {
-	border-color: #ff4d8e;
+	border-color: #3cb5b5;
 }
 
 .contact-form .form-group textarea {

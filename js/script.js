@@ -269,7 +269,7 @@
 		$(".progress-box .bar-fill").each(function() {
 			var progressWidth = $(this).attr('data-percent');
 			$(this).css('width',progressWidth+'%');
-			$(this).children('.percent').html(progressWidth+'%');
+			$(this).children('.percent').html(progressWidth/10+' yrs');
 		});
 	}
 

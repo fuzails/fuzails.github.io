@@ -69,11 +69,11 @@
 	.mobile-menu .navbar-header .navbar-toggle{
 		display:inline-block;
 		z-index:20;
-		border: 1px solid #ff4d8e;
+		border: 1px solid #3cb5b5;
 		float:none;
 		margin:0px 0px 0px 0px;
 		border-radius:0px;
-		background: #ff4d8e;
+		background: #3cb5b5;
 	}
 	
 	.mobile-menu .navbar-header .navbar-toggle .icon-bar{
