@@ -781,7 +781,7 @@ img{
 
 .progress-levels .progress-box .bar .bar-fill {
 	position: absolute;
-	left: -100%;
+	/*left: -100%;*/
 	top: 0px;
 	width: 0px;
 	height: 5px;
@@ -794,15 +794,15 @@ img{
 	border-radius: 10px;
 }
 
-.progress-levels .progress-box.html .bar .bar-fill {
+.progress-levels .progress-box.enterprise .bar .bar-fill {
 	background: #ef6267;
 }
 
-.progress-levels .progress-box.wp .bar .bar-fill {
+.progress-levels .progress-box.technical .bar .bar-fill {
 	background: #1cae80;
 }
 
-.progress-levels .progress-box.php .bar .bar-fill {
+.progress-levels .progress-box.microservices .bar .bar-fill {
 	background: #4eaeff;
 }
 
