@@ -809,7 +809,7 @@ img{
 	top: 0px;
 	width: 0px;
 	height: 5px;
-	background: #f5cd2f;
+
 	-moz-transition: all 2000ms ease 300ms;
 	-webkit-transition: all 2000ms ease 300ms;
 	-ms-transition: all 2000ms ease 300ms;
@@ -818,15 +818,19 @@ img{
 	border-radius: 10px;
 }
 
-.progress-levels .progress-box.enterprise .bar .bar-fill {
+.progress-levels .progress-box.yellow .bar .bar-fill {
+    background: #f5cd2f;
+}
+
+.progress-levels .progress-box.red .bar .bar-fill {
 	background: #ef6267;
 }
 
-.progress-levels .progress-box.technical .bar .bar-fill {
+.progress-levels .progress-box.green .bar .bar-fill {
 	background: #1cae80;
 }
 
-.progress-levels .progress-box.microservices .bar .bar-fill {
+.progress-levels .progress-box.blue .bar .bar-fill {
 	background: #4eaeff;
 }
 

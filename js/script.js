@@ -267,9 +267,19 @@
 	//Progress Bar
 	if($('.progress-levels .progress-box .bar-fill').length){
 		$(".progress-box .bar-fill").each(function() {
-			var progressWidth = $(this).attr('data-percent');
-			$(this).css('width',progressWidth+'%');
-			$(this).children('.percent').html(progressWidth/10+' yrs');
+            var years = moment().diff(moment($(this).attr('data-percent'), "DDMMYYYY"), 'years', true)
+            if(years % 1 !== 0) {
+                years = years.toFixed(1);
+            }
+
+            if(years < 10) {
+                let progressWidth = years*10;
+                $(this).css('width',progressWidth+'%');
+            } else {
+                $(this).css('width','100%');
+            }
+
+            $(this).siblings('.percent').html(years+' yrs');
 		});
 	}
 
